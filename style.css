@@ -2,6 +2,7 @@ body {
   background-color: #FA8072;
   font-family: cursive, sans-serif;
   text-align: center;
+  margin: 0;
 }
 
 header {
@@ -10,7 +11,6 @@ header {
 }
 
 div {
-  float: left;
   background-color: white;
   width:100%;
 }
