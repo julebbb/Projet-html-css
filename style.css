@@ -18,7 +18,7 @@ ul {
   display: inline-block;
   background-color: #ebf0f1;
   width: 20%;
-  padding-top: 10px;
+  padding-top: 25px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -26,7 +26,9 @@ ul {
   margin-right: 20px;
   border-radius: 10px;
 }
-
+h2 {
+  font-size: 1em;
+}
 h3 {
     font-size: 14px;
 }
@@ -40,4 +42,8 @@ li {
   background-color: #d2d2d2;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+img {
+  width: 15px;
 }
