@@ -8,18 +8,18 @@ body {
 header {
   color: white;
   margin-top: 60px;
+
 }
 
 div {
   background-color: white;
-  width: 100%;
+  width:100%;
 }
-
 ul {
+  display: inline-table;
   background-color: #ebf0f1;
-  /*sert a placer les liste en ligne*/
-  display: inline-block;
   width: 20%;
+  height: 200px;
   padding-top: 25px;
   padding-bottom: 20px;
   padding-left: 20px;
@@ -32,26 +32,25 @@ ul {
 h1 {
   font-size: 38px;
   margin: 0;
+
 }
 
 h2 {
   font-size: 18px;
   margin-bottom: 40px;
 }
-
 h3 {
     font-size: 14px;
 }
 
 li {
   font-size: 12px;
-  margin: 4px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .liFoncer {
   background-color: #d2d2d2;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 img {
@@ -62,12 +61,11 @@ footer {
   padding-top: 20px;
   padding-bottom: 30px;
 }
-
-/*responsive*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  ul {
-    width: 39%;
-  }
+
+ul {
+  width: 39%;
+}
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -77,6 +75,13 @@ footer {
   }
   ul {
     display: block;
-    width: 75%;
+    width: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  ul {
+    display: block;
+    width: auto;
   }
 }
