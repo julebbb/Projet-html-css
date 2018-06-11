@@ -17,12 +17,11 @@ div {
 ul {
   display: inline-block;
   background-color: #ebf0f1;
-  width: 15%;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 20%;
   padding-top: 10px;
   padding-bottom: 5%;
-  margin-left: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 10px;
 }
 
@@ -32,6 +31,10 @@ h3 {
 
 li {
   font-size: 12px;
+  margin: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 4px;
 }
 
 .liFoncer {
