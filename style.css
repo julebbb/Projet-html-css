@@ -1,0 +1,23 @@
+body {
+  background-color: #FA8072;
+  font-family: cursive, sans-serif;
+  text-align: center;
+}
+
+header {
+  color: white;
+
+}
+
+div {
+  float: left;
+  background-color: white;
+  width:100%;
+}
+ul {
+  display: inline-block;
+  background-color: #ebf0f1;
+  padding: 5%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
