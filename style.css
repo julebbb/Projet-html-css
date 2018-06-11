@@ -19,7 +19,9 @@ ul {
   background-color: #ebf0f1;
   width: 20%;
   padding-top: 10px;
-  padding-bottom: 5%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
@@ -31,12 +33,11 @@ h3 {
 
 li {
   font-size: 12px;
-  margin: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin: 4px;
 }
 
 .liFoncer {
   background-color: #d2d2d2;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
