@@ -48,6 +48,9 @@ li {
   padding-top: 7px;
   padding-bottom: 7px;
 }
+.titreList {
+  list-style-type: none;
+}
 
 .liFoncer {
   background-color: #d2d2d2;
