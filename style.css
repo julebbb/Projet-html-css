@@ -32,6 +32,8 @@ h3 {
 
 li {
   font-size: 12px;
-  background-color: white;
-  margin: 5px;
+}
+
+.liFoncer {
+  background-color: #d2d2d2;
 }
